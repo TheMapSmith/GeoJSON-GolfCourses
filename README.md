@@ -12,7 +12,7 @@ Inspired by cageyjames and his [GeoJSON](https://github.com/cageyjames/GeoJSON-B
   2. Filter the extract using [Osmosis](http://wiki.openstreetmap.org/wiki/Osmfilter)
 `osmosis --read-xml north-america-latest.osm.pbf --tag-filter accept-ways leisure=golf_course --used-node --write-xml namerica.osm`
   3. Load into QGIS and filter `name IS NOT null`
-  4. Save as GeoJSON
+  4. Save as GeoJSON including BBox
 
 ###Coming Soon:
   1. European golf courses
